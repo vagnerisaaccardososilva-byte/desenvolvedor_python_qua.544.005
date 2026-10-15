@@ -1,0 +1,17 @@
+# Importar biblioteca
+import os
+import time
+
+# limpar o terminal
+os.system("cls")
+
+# entrada de dados
+n = int(input("Informe um número inteiro: "))
+
+#contador
+while n >= 0:
+    os.system("cls")
+    print(f"{n}...")
+    time.sleep(1)
+    n -= 1
+print("VASCO DA GAMAAA!!!!")
