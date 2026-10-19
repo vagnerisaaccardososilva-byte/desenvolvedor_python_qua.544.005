@@ -2,21 +2,26 @@
 
 nome = input("Informe o seu nome: ").strip().title()
 altura = float(input("Digite sua altura em metros ").replace(",","."))
-peso = float(input("Digite seu peso em kg: ").replace(",","."))
+massa = float(input("Digite sua massa corporal em kg: ").replace(",","."))
 
-imc = peso / (altura * altura)
+imc = massa / (altura * altura)
 
-print(f"Seu IMC é: {imc:2}")
+print(f"Seu IMC é: {imc:.2f}!")
 
 if imc < 18.5:
-    print(f"O {nome} está abaixo do peso")
-elif imc < 18.5:
-    print(f"O {nome} está com o peso ideal")
+    print(f"O {nome} está abaixo da massa corporal indicada")
+
 elif imc < 25.0:
-    print(f"O {nome} está com sobrepeso")
+    print(f"O {nome} está com amassa ideal")
+
 elif imc < 30.0:
-    print(f"O {nome} está com obesidade grau I")
+    print(f"O {nome} está com sobrepeso")
+
 elif imc < 35.0:
+    print(f"O {nome} está com obesidade grau I")
+
+elif imc < 40.0:
     print(f"O {nome} está com obesidade grau II (severa)")
+
 else:
     print(f"O {nome} está com obesidade severa")
