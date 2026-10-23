@@ -9,7 +9,7 @@ os.system("cls" if os.name == "nt" else "clear")
 
 # loop
 while True:
-    #exibe a lista original
+    #exibe a lista original 
     for n, nome in enumerate(nomes):
         print(f"Indice {n}: {nome}")
     #Menu
