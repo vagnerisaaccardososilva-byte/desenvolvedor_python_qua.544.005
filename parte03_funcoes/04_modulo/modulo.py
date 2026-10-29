@@ -13,4 +13,4 @@ def a_circulo(r):
     return math.pi*(r**2)
 
 def comprimento_circulo(r):
-    return 2*math.pi*r
+    return 2*math.pi*r  
