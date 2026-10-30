@@ -2,6 +2,7 @@
 '''
 Crie um programa em que o usuario informe um numero inteiro e o programa e o programa retorne a sequencia fibonacci.
 '''
+
 print(f"{'-'*30}")
 print("Sequencia de fibonacci")
 print(f"{'-'*30}")
