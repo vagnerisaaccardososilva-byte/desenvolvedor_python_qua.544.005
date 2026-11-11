@@ -66,7 +66,7 @@ class ContaCorrente(Conta):
     taxa: float
 
     def sacar(self, valor):
-         valor += 0.01
+         valor -= 0.01
          return super().sacar(valor)
 
 
@@ -75,5 +75,5 @@ class ContaPoupanca(Conta):
      juros: float
 
      def depositar(self, valor,juros):
-          valor += (juros/100)
+          valor += (self.juros/100)
           return super().depositar(valor)

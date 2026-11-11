@@ -23,7 +23,7 @@ def operacoes(agencia,conta,usuario):
             n_conta=f"{random.randint(10000,999999)}-2",
             saldo=0.0,
             titular=usuario,
-            taxa=0.01
+            juros=0.1
         )
     while True:
         print("0 - Sair do programa")
