@@ -1,0 +1,11 @@
+asgiref==3.12.1
+beautifulsoup4==4.15.0
+click==8.5.0
+Django==6.1.1
+h11==0.16.0
+soupsieve==4.1
+sqlparse==0.6.0
+translator==0.0.9
+typing_extensions==4.16.0
+tzdata==2026.4
+uvicorn==0.54.0
